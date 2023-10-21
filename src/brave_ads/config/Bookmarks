@@ -1,0 +1,82 @@
+{
+   "checksum": "",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13293992698000000",
+            "guid": "6d55ca39-1977-4b38-bdcf-19fc3c63a7a9",
+            "id": "175",
+            "name": "Internals",
+            "type": "url",
+            "url": "chrome://rewards-internals/"
+         }, {
+            "date_added": "13303073329670381",
+            "guid": "e1cfe8f6-f875-4de4-b46f-f9c3565cab47",
+            "id": "202",
+            "name": "Version",
+            "type": "url",
+            "url": "chrome://version/"
+         }, {
+            "date_added": "13293992704000000",
+            "guid": "39cf910f-9731-430f-b72c-ff14dbb2d877",
+            "id": "176",
+            "name": "Catalog",
+            "type": "url",
+            "url": "https://sampson.codes/brave/ads/my_region/"
+         }, {
+            "date_added": "13294101741000000",
+            "guid": "1c094d8f-5345-4365-9690-f91e042326be",
+            "id": "178",
+            "name": "",
+            "type": "url",
+            "url": "https://ethereum.org/en/"
+         }, {
+            "date_added": "13292510736000000",
+            "guid": "de90a268-b996-4434-856c-dffe07ebd983",
+            "id": "180",
+            "name": "",
+            "type": "url",
+            "url": "https://1inch.io/"
+         }, {
+            "date_added": "13292526569000000",
+            "guid": "417683d3-dd62-4390-8551-2babc7a5fe62",
+            "id": "184",
+            "name": "",
+            "type": "url",
+            "url": "https://nft.bigtime.gg/"
+         }, {
+            "date_added": "13292994229000000",
+            "guid": "31422a4a-cd32-402c-a567-c5d13df2100f",
+            "id": "190",
+            "name": "",
+            "type": "url",
+            "url": "https://www.aax.com/en-US/"
+         } ],
+         "date_added": "13290626935595997",
+         "date_modified": "13303354177857605",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13290626935595999",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13290626935596000",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
