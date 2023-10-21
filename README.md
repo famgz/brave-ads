@@ -1,3 +1,3 @@
 # brave-ads
 ---
-Educational/proof-of-concept project that emulates user interaction with Brave ads system.
+Educational/proof-of-concept project that provides several management and automation tools to deal with Brave ads Rewards system.
