@@ -11,7 +11,7 @@ setup(
     author_email='famgz@proton.me',
     url='https://github.com/famgz/brave-ads',
     packages=['brave_ads'],
-    package_dir={'fscope': 'src/brave_ads'},
+    package_dir={'brave_ads': 'src/brave_ads'},
     include_dirs=True,
     include_package_data=True,
     install_requires=REQUIREMENTS
