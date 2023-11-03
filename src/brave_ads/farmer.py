@@ -41,7 +41,7 @@ from .segments import Segments
 # TODO needs a better implementation
 log_path = Path(cfg.logs_dir, 'farmer')
 print = LogPrint(log_path, dated=True).print
-from .. import brave_ads
+import brave_ads
 brave_ads.config.print = \
 brave_ads.ads.print = \
 brave_ads.json_preferences.print = \

@@ -2,6 +2,9 @@ import sys
 from famgz_utils import print
 from pathlib import Path
 
+if __package__ is None:
+    sys.path.insert(0, Path(__file__).resolve().parent.parent)
+
 from .ads import ads
 from .config import cfg
 
