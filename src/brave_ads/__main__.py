@@ -17,6 +17,7 @@ opts = {
     'dev'                  : ('=<dev>',             "single device stats"),
     'create-dev'           : ('',                   "create new devices"),
     'clean-client-history' : ('',                   "Clean client.json ads history"),
+    'clean-cache'      : ('',                   "Clean all devs browser's cache files by running it"),
     'tokens'               : ('',                   "show device's `failed confirmations` `unblinded payment tokens`"),
     'unb-tok-refills'      : ('',                   "show device's all unblinded tokens refills intervals"),
     'run-low-unb-tok'      : ('',                   "runs low unblinded token devices"),
@@ -97,6 +98,9 @@ def main():
     elif opt == 'clean-client-history':
         devs = cfg.all_devs
         cfg.all_clean_client_ads_history(devs=devs, max_size=0)
+
+    elif opt == 'clean-cache':
+        cfg.clean_cache()
 
     # farmer.py
     elif opt == 'farmer':
